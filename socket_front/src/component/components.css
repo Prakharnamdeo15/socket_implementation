@@ -1,0 +1,52 @@
+* {
+ margin: 0px;
+ padding:0px;
+}
+
+.chatarea_container{
+    padding-top: 12px;
+    margin-top: 20vh;
+    margin-left: 18vw;
+    height: 60vh;
+    width: 60vw;
+    padding: auto;
+    background-color: rgb(132, 33, 245);
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+
+.input_container{
+    display: flex;
+    margin-top: 4px;
+    background-color: rgb(114, 92, 240);
+    height: 7vh;
+    margin-left: 18vw;
+    width: 60vw;
+    border-radius: 20px;
+}
+
+#message_in{
+    border-style: none;
+    height: 83%;
+    margin: 5px;
+    border-radius: 20px;
+    width: 85%;
+    padding: 0px 20px;
+}
+
+.send_button{
+    border-style: none;
+    height: 83%;
+    margin: 5px 2px;
+    width: 9.7%;
+    border-radius: 20px;
+}
+
+.show_chats{
+    background-color: rgb(161, 117, 243);
+    height: 97%;
+    width: 97%;
+    margin-left: 12px;
+    border-radius: 20px;
+    overflow-y: scroll;
+}
